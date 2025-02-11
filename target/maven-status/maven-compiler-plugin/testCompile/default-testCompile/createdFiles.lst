@@ -1,0 +1,8 @@
+br\com\cleanarchitecture\domain\entity\CustomerTest.class
+br\com\cleanarchitecture\infrastructure\repository\ProductModelRepositoryTest.class
+br\com\cleanarchitecture\domain\service\ProductServiceTest.class
+br\com\cleanarchitecture\domain\service\OrderServiceTest.class
+br\com\cleanarchitecture\domain\entity\OrderTest.class
+br\com\cleanarchitecture\domain\entity\ProductTest.class
+br\com\cleanarchitecture\infrastructure\repository\CustomerModelRepositoryTest.class
+br\com\cleanarchitecture\infrastructure\repository\OrderModelRepositoryTest.class
