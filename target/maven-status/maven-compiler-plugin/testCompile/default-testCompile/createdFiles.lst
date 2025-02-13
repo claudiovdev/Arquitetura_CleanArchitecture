@@ -1,5 +1,7 @@
 br\com\cleanarchitecture\domain\entity\CustomerTest.class
 br\com\cleanarchitecture\infrastructure\repository\ProductModelRepositoryTest.class
+br\com\cleanarchitecture\usecase\customer\create\CreateCustomerUseCaseTest.class
+br\com\cleanarchitecture\usecase\customer\find\FindCustomerUseCaseTest.class
 br\com\cleanarchitecture\domain\service\ProductServiceTest.class
 br\com\cleanarchitecture\domain\service\OrderServiceTest.class
 br\com\cleanarchitecture\domain\entity\OrderTest.class

@@ -19,3 +19,14 @@ C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\ma
 C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\infrastructure\repository\OrderModelRepository.java
 C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\infrastructure\repository\ProductModelRepository.java
 C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\Main.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\create\CreateAddressDto.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\create\CreateCustomerUseCase.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\create\InputCreateCustomerDto.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\find\AddressDto.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\find\FindCustomerUseCase.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\find\InputFindCustomerDto.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\find\OutputFindCustomerDto.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\update\InputUpdateCustomerDto.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\update\OutputUpdateCustomerDto.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\update\UpdateAddressDto.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\main\java\br\com\cleanarchitecture\usecase\customer\update\UpdateCustomerUseCase.java

@@ -77,5 +77,9 @@ public class Customer {
         return active;
     }
 
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
 
 }

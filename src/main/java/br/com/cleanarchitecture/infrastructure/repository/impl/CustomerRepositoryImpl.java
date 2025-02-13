@@ -24,6 +24,7 @@ public class CustomerRepositoryImpl implements CustomerRepository {
 
     @Override
     public void save(Customer customer) {
+        customer.addRewards(0.0);
         repository.save(new CustomerModel(customer.getId(), customer.getName(),
                 customer.getAddress().getStreet(),customer.getAddress().getNumber(),
                 customer.getAddress().getZip(),customer.getAddress().getCity(),customer.getActive(), customer.getRewards()));
@@ -42,6 +43,8 @@ public class CustomerRepositoryImpl implements CustomerRepository {
             customer.deactivate();
         }
         customer.addRewards(customerModel.getRewards());
+
+        customer.setAddress(address);
 
         return customer;
     }
@@ -65,6 +68,24 @@ public class CustomerRepositoryImpl implements CustomerRepository {
         }).collect(Collectors.toList());
     }
 
+    @Override
+    public Customer update(Customer customer) {
+        var customerExists = repository.findById(customer.getId()).orElseThrow(()-> new RuntimeException("Customer not found"));
+        customerExists.setName(customer.getName());
+        customerExists.setCity(customer.getAddress().getCity());
+        customerExists.setStreet(customer.getAddress().getStreet());
+        customerExists.setNumber(customer.getAddress().getNumber());
+        customerExists.setZip(customer.getAddress().getZip());
+
+        var customerSaved =  repository.save(customerExists);
+
+        var adress = new Address(customerSaved.getStreet(),customerSaved.getNumber(),customerSaved.getZip(),customerSaved.getCity());
+        var newCustomer = new Customer(customerSaved.getId(),customerSaved.getName());
+        newCustomer.setAddress(adress);
+        newCustomer.addRewards(customerSaved.getRewards());
+        newCustomer.activate();
+        return newCustomer;
+    }
 
 
 }

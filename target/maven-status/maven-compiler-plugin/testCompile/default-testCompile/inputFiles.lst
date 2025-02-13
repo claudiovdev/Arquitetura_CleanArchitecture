@@ -6,3 +6,5 @@ C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\te
 C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\test\java\br\com\cleanarchitecture\infrastructure\repository\CustomerModelRepositoryTest.java
 C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\test\java\br\com\cleanarchitecture\infrastructure\repository\OrderModelRepositoryTest.java
 C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\test\java\br\com\cleanarchitecture\infrastructure\repository\ProductModelRepositoryTest.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\test\java\br\com\cleanarchitecture\usecase\customer\create\CreateCustomerUseCaseTest.java
+C:\Users\USER\Documents\Estudo_Spring\CleanArquitecture\cleanArquitecture\src\test\java\br\com\cleanarchitecture\usecase\customer\find\FindCustomerUseCaseTest.java

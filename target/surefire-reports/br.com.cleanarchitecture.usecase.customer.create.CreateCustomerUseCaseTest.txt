@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.cleanarchitecture.usecase.customer.create.CreateCustomerUseCaseTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.608 s -- in br.com.cleanarchitecture.usecase.customer.create.CreateCustomerUseCaseTest
