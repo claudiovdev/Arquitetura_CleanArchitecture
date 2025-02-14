@@ -23,11 +23,16 @@ public class CustomerRepositoryImpl implements CustomerRepository {
     }
 
     @Override
-    public void save(Customer customer) {
+    public Customer save(Customer customer) {
         customer.addRewards(0.0);
-        repository.save(new CustomerModel(customer.getId(), customer.getName(),
+        var result =  repository.save(new CustomerModel(customer.getId(), customer.getName(),
                 customer.getAddress().getStreet(),customer.getAddress().getNumber(),
                 customer.getAddress().getZip(),customer.getAddress().getCity(),customer.getActive(), customer.getRewards()));
+        var cust =  new Customer(result.getId(),result.getName());
+        cust.setAddress(new Address(result.getStreet(),result.getNumber(),result.getZip(),result.getCity()));
+        return cust;
+
+
     }
 
     @Override

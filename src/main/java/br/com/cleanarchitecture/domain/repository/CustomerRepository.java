@@ -7,7 +7,7 @@ import java.util.List;
 
 @Repository
 public interface CustomerRepository {
-    void save(Customer customer);
+    Customer save(Customer customer);
     Customer findById(String id);
 
     List<Customer> findAll();
